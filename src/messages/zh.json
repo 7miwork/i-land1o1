@@ -1,0 +1,118 @@
+{
+  "site": {
+    "title": "I-Land 程式學院",
+    "subtitle": "小小海盜，編碼未來！",
+    "description": "德國6-14歲兒童Minecraft編程課程 - 通過冒險和遊戲學習程式設計"
+  },
+  "nav": {
+    "home": "首頁",
+    "courses": "課程",
+    "testimonials": "家長評價",
+    "faq": "常見問題",
+    "contact": "聯繫我們",
+    "book": "立即預約"
+  },
+  "hero": {
+    "title": "嗨，小小程式設計師！",
+    "subtitle": "與Minecraft Education一起啟航編程冒險",
+    "cta": "探索課程",
+    "cta2": "預約免費試課"
+  },
+  "courses": {
+    "title": "選擇你的編程任務",
+    "subtitle": "從菜鳥水手到編程船長 - 找到最適合你的課程",
+    "beginner": {
+      "title": "初級海盜",
+      "age": "6-8歲",
+      "description": "通過Minecraft冒險學習編程基礎。創建你的第一個模組，用代碼建造驚人的建築！",
+      "price": "€49/月",
+      "features": ["圖形化編程", "簡單模組創建", "每週45分鐘課程", "家長監控面板"]
+    },
+    "intermediate": {
+      "title": "中級探險家",
+      "age": "8-11歲",
+      "description": "用Python和高級Minecraft模組開發深入學習編程。打造屬於你自己的小遊戲！",
+      "price": "€69/月",
+      "features": ["Python基礎", "自定義模組開發", "每週60分鐘課程", "作品集展示"]
+    },
+    "advanced": {
+      "title": "高級船長",
+      "age": "11-14歲",
+      "description": "掌握全棧開發和遊戲設計。創建專業的Minecraft服務器和插件！",
+      "price": "€89/月",
+      "features": ["全棧JavaScript", "服務器開發", "每週90分鐘課程", "職業規劃指導"]
+    },
+    "cta": "立即報名"
+  },
+  "testimonials": {
+    "title": "家長的真心話",
+    "subtitle": "加入500+個快樂家庭，開啟編程冒險之旅",
+    "items": [
+      {
+        "name": "Sarah M.",
+        "role": "Max的媽媽，9歲",
+        "text": "我兒子以前只是玩Minecraft。現在他居然在製作模組和學習Python！海盜主題讓他非常投入。"
+      },
+      {
+        "name": "Thomas K.",
+        "role": "Lena的爸爸，11歲",
+        "text": "短短3個月的進步令人驚嘆。Lena從零編程經驗到建造自己的小遊戲。強烈推薦！"
+      },
+      {
+        "name": "Maria W.",
+        "role": "Tom的媽媽，7歲",
+        "text": "非常適合年幼的孩子。Tom喜歡尋寶式的學習方式。他甚至不知道自己在學習編程！"
+      }
+    ]
+  },
+  "faq": {
+    "title": "常見問題",
+    "subtitle": "關於我們程式學院的一切須知",
+    "items": [
+      {
+        "question": "你們教授哪些年齡段的學生？",
+        "answer": "我們教授6-14歲的兒童。課程分為三個級別：初級（6-8歲）、中級（8-11歲）和高級（11-14歲）。"
+      },
+      {
+        "question": "我需要購買Minecraft嗎？",
+        "answer": "我們使用Minecraft Education Edition，免費提供給所有學生。你只需要一台能上網的電腦。"
+      },
+      {
+        "question": "課程是線上還是線下？",
+        "answer": "我們提供線上線下兩種模式。線上課程通過Zoom進行屏幕共享。線下課程在柏林。"
+      },
+      {
+        "question": "我的孩子會學到哪些程式語言？",
+        "answer": "從圖形化編程開始，進階到Python，然後是JavaScript和全棧開發。全部通過Minecraft模組開發學習！"
+      },
+      {
+        "question": "每個課程持續多長時間？",
+        "answer": "每個級別為12週。完成後學生將獲得證書，並可晉升至下一級別。"
+      },
+      {
+        "question": "可以先試上再決定嗎？",
+        "answer": "當然！我們提供免費試聽課程。通過Calendly預約，來發現這個冒險吧！"
+      }
+    ]
+  },
+  "contact": {
+    "title": "給我們寄一封瓶中信",
+    "subtitle": "有問題嗎？我們很樂意聽取你的意見！",
+    "name": "姓名",
+    "email": "電子郵件",
+    "message": "訊息",
+    "submit": "發送訊息",
+    "success": "訊息發送成功！我們會盡快回覆你。",
+    "error": "出現了一些問題。請再試一次。"
+  },
+  "footer": {
+    "rights": "I-Land 程式學院。版權所有。",
+    "privacy": "隱私政策",
+    "terms": "服務條款",
+    "follow": "關注我們的旅程"
+  },
+  "seo": {
+    "title": "I-Land 程式學院 | 德國兒童Minecraft編程課程",
+    "description": "德國6-14歲兒童Minecraft編程課程。通過精彩的海盜冒險學習Python、JavaScript和遊戲設計。線上編程學校。"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "site": {
+    "title": "I-Land Coding Academy",
+    "subtitle": "Where Young Pirates Code Their Future!",
+    "description": "Minecraft Coding for Kids aged 6-14 in Germany - Learn programming through adventure and play"
+  },
+  "nav": {
+    "home": "Home",
+    "courses": "Courses",
+    "testimonials": "Testimonials",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "book": "Book Now"
+  },
+  "hero": {
+    "title": "Ahoy, Young Coder!",
+    "subtitle": "Set Sail on a Coding Adventure with Minecraft Education",
+    "cta": "Explore Courses",
+    "cta2": "Book Free Trial"
+  },
+  "courses": {
+    "title": "Choose Your Coding Quest",
+    "subtitle": "From land lubber to coding captain - find your perfect course",
+    "beginner": {
+      "title": "Beginner Buccaneer",
+      "age": "Ages 6-8",
+      "description": "Learn coding basics through Minecraft adventures. Create your first mods and build amazing structures with code!",
+      "price": "€49/month",
+      "features": ["Block-based coding", "Simple mod creation", "Weekly 45-min sessions", "Parent dashboard"]
+    },
+    "intermediate": {
+      "title": "Intermediate Explorer",
+      "age": "Ages 8-11",
+      "description": "Dive deeper into programming with Python and advanced Minecraft modding. Build your own mini-games!",
+      "price": "€69/month",
+      "features": ["Python basics", "Custom mod development", "Weekly 60-min sessions", "Project portfolio"]
+    },
+    "advanced": {
+      "title": "Advanced Captain",
+      "age": "Ages 11-14",
+      "description": "Master full-stack development and game design. Create professional Minecraft servers and plugins!",
+      "price": "€89/month",
+      "features": ["Full-stack JavaScript", "Server development", "Weekly 90-min sessions", "Career guidance"]
+    },
+    "cta": "Enroll Now"
+  },
+  "testimonials": {
+    "title": "What Parents Say",
+    "subtitle": "Join 500+ happy families on this coding adventure",
+    "items": [
+      {
+        "name": "Sarah M.",
+        "role": "Mother of Max, 9",
+        "text": "My son was always just playing Minecraft. Now he's actually building mods and learning Python! The pirate theme keeps him engaged."
+      },
+      {
+        "name": "Thomas K.",
+        "role": "Father of Lena, 11",
+        "text": "The progress in just 3 months is amazing. Lena went from zero coding experience to building her own mini-game. Highly recommend!"
+      },
+      {
+        "name": "Maria W.",
+        "role": "Mother of Tom, 7",
+        "text": "Perfect for young kids. Tom loves the treasure hunt approach to learning. He doesn't even realize he's learning programming!"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know about our coding academy",
+    "items": [
+      {
+        "question": "What age groups do you teach?",
+        "answer": "We teach children aged 6-14. Our courses are divided into three levels: Beginner (6-8), Intermediate (8-11), and Advanced (11-14)."
+      },
+      {
+        "question": "Do I need to buy Minecraft?",
+        "answer": "We use Minecraft Education Edition, which we provide free for all students. You just need a computer with internet access."
+      },
+      {
+        "question": "Are the classes online or in-person?",
+        "answer": "We offer both online and in-person classes. Online sessions are conducted via Zoom with screen sharing. In-person classes are in Berlin."
+      },
+      {
+        "question": "What programming languages will my child learn?",
+        "answer": "Start with block-based coding, progress to Python, then JavaScript and full-stack development. All through Minecraft modding!"
+      },
+      {
+        "question": "How long does each course last?",
+        "answer": "Each level is 12 weeks. After completion, students receive a certificate and can advance to the next level."
+      },
+      {
+        "question": "Can we try before committing?",
+        "answer": "Absolutely! We offer a free trial session. Book via Calendly and discover the adventure!"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Send Us a Message in a Bottle",
+    "subtitle": "Have questions? We'd love to hear from you!",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Send Message",
+    "success": "Message sent successfully! We'll get back to you soon.",
+    "error": "Something went wrong. Please try again."
+  },
+  "footer": {
+    "rights": "I-Land Coding Academy. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "follow": "Follow Our Voyage"
+  },
+  "seo": {
+    "title": "I-Land Coding Academy | Minecraft Coding for Kids in Germany",
+    "description": "Minecraft Coding for Kids aged 6-14 in Germany. Learn Python, JavaScript, and game design through exciting pirate adventures. Online programming school."
+  }
+}

@@ -1,26 +1,134 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --color-ocean-dark: #0a1628;
+  --color-ocean-mid: #0f2b5c;
+  --color-ocean-light: #1a4a8a;
+  --color-sand: #f4d03f;
+  --color-sand-light: #f9e79f;
+  --color-pirate-gold: #d4a017;
+  --color-pirate-red: #c0392b;
+  --color-pirate-brown: #8b4513;
+  --color-minecraft-green: #5b8c3e;
+  --color-minecraft-stone: #808080;
+  --color-minecraft-wood: #8b6914;
+  --color-minecraft-sky: #87ceeb;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+:root {
+  --background: #0a1628;
+  --foreground: #f0e6d3;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Minecraft-style pixelated border */
+.pixel-border {
+  box-shadow: 
+    inset -4px -4px 0 0 rgba(0,0,0,0.3),
+    inset 4px 4px 0 0 rgba(255,255,255,0.1);
+  image-rendering: pixelated;
+}
+
+/* Treasure map style */
+.treasure-map {
+  background: linear-gradient(135deg, #f4d03f 0%, #e6b800 50%, #d4a017 100%);
+  position: relative;
+}
+
+.treasure-map::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(139, 69, 19, 0.05) 2px,
+    rgba(139, 69, 19, 0.05) 4px
+  );
+  pointer-events: none;
+}
+
+/* Animated waves */
+@keyframes wave {
+  0% { transform: translateX(0) translateY(0); }
+  25% { transform: translateX(-25px) translateY(5px); }
+  50% { transform: translateX(-50px) translateY(0); }
+  75% { transform: translateX(-25px) translateY(-5px); }
+  100% { transform: translateX(0) translateY(0); }
+}
+
+@keyframes wave2 {
+  0% { transform: translateX(0) translateY(0); }
+  25% { transform: translateX(25px) translateY(-5px); }
+  50% { transform: translateX(50px) translateY(0); }
+  75% { transform: translateX(25px) translateY(5px); }
+  100% { transform: translateX(0) translateY(0); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+
+@keyframes twinkle {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 1; }
+}
+
+@keyframes sail {
+  0% { transform: rotate(-5deg); }
+  50% { transform: rotate(5deg); }
+  100% { transform: rotate(-5deg); }
+}
+
+.animate-wave { animation: wave 8s ease-in-out infinite; }
+.animate-wave2 { animation: wave2 10s ease-in-out infinite; }
+.animate-float { animation: float 6s ease-in-out infinite; }
+.animate-sail { animation: sail 4s ease-in-out infinite; }
+.animate-shimmer {
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);
+  background-size: 200% 100%;
+  animation: shimmer 3s infinite;
+}
+
+/* Minecraft block texture background */
+.minecraft-bg {
+  background-image: 
+    linear-gradient(45deg, #5b8c3e 25%, transparent 25%),
+    linear-gradient(-45deg, #5b8c3e 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, #5b8c3e 75%),
+    linear-gradient(-45deg, transparent 75%, #5b8c3e 75%);
+  background-size: 20px 20px;
+  background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #0a1628;
+}
+::-webkit-scrollbar-thumb {
+  background: #d4a017;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #f4d03f;
 }
